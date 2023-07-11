@@ -1,0 +1,34 @@
+# Ignore .pkrvars.hcl containing potentially sensitive data
+*.pkrvars.hcl
+
+# Ignore macOS system files
+.DS_Store
+
+# Ignore compiled files
+*.o
+*.so
+*.ko
+*.mod
+*.smod
+*.cmd
+*.elf
+*.img
+
+# Ignore temporary files
+*.log
+*.tmp
+*.bak
+*.swp
+*.old
+*.tgz
+
+# Ignore IDE specific files
+.idea/
+.vscode/
+
+# Ignore Terraform .terraform directories
+**/.terraform/*
+
+# Ignore Terraform .tfstate files
+*.tfstate
+*.tfstate.*
